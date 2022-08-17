@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20rem;
+    align-items: baseline;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-inline: 20px;
+}
+
+#page{
+    background-color:azure;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text{
+    font-size: x-large;
+    width: 20rem;
+    padding-inline: 200px;
+}
+
+#aboutme{
+    padding-top: 10rem;
+}
+
+.container{
+    text-align: center;
+    margin: 10rem;
+    flex-direction: column;
+}
+
+.container-cards{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 1rem;
+    border: 2px solid black;
+    flex-basis: 30%;
+}
+
+.img-card{
+    width: 10rem;
+    height: 10rem;
+}
