@@ -39,13 +39,12 @@ li{
 
 .container{
     text-align: center;
-    margin: 10rem;
+    margin: 10rem 10rem 0 10rem;
     flex-direction: column;
 }
 
 .container-cards{
     display: flex;
-    border: 2px solid black;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,4 +59,18 @@ li{
 .img-card{
     width: 10rem;
     height: 10rem;
+}
+
+footer{
+    background-color: rgba(169, 255, 243, 0.486);
+}
+
+.container-footer{
+    text-align: center;
+    margin: 0 20rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
